@@ -1,0 +1,143 @@
+body {
+    background: #f9f9fa;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+a {
+    color: #188fff;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+.header {
+    max-width: 100%;
+    padding: 13px 15px 0px 15px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.header > div {
+    display: inline-block;
+}
+.logo {
+    max-height: 48px;
+}
+.help-parent{
+    float: right;
+    padding-top: 12px;
+    font-size: 13px;
+}
+
+
+.text-parent {
+    width: 60%;
+    display: inline-block;
+}
+.text {
+    padding: 50px 60px 60px 200px;
+    line-height: 35px
+}
+.text h3{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+
+.box-parent {
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+.box {
+    background: #ffffff;
+    max-width: 300px;
+    padding: 30px 30px;
+    margin-left: 20px;
+    box-shadow: 0 2px 4px 0 rgba(181,181,181,.7);
+    border-top: 1px solid #f1f1f5;
+}
+.box-img {
+    text-align: center;
+}
+.box-img img{
+    height: 48px;
+}
+.box h3 {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.username {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.username input {
+    width: 100%;
+    padding: 12px 8px;
+    border: none;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    box-sizing: border-box;
+}
+.username input:focus {
+    box-shadow: none;
+    outline: 0;
+    border-bottom: 2px solid #188fff;
+}
+
+button {
+    width: 100%;
+    color: #ffffff;
+    background-color: #188fff;
+    border: 1px solid  #188fff;
+    padding: 11px 0px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+background: rgb(82, 163, 255);
+}
+button:active {
+    background: #003abc;
+    border-color: #003abc;
+}
+button:focus {
+    outline: 0;
+}
+
+.forget {
+    padding-bottom: 180px;
+    padding-top: 30px;
+    font-size: 13px;
+}
+.forget > div {
+    display: inline-block;
+    max-width: 49%;
+    line-height: 15px;
+}
+.signed {
+    text-align: center;
+    float: left;
+}
+.signed input {
+    vertical-align: top
+}
+.trouble {
+    text-align: center;
+    float: right;
+}
+.signup {
+    text-align: center;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

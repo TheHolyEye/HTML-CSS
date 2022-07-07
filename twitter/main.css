@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+.content > div {
+    width: 49.5%;
+    display: inline-block;
+    height: 100%;
+}
+.left {
+    background-color: #52a2f2;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-background {
+    position: absolute;
+    left: 80px;
+    top: -220px;
+}
+
+.subject h4 {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+.subject {
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 150px;
+    z-index: 1000;
+}
+
+.subject i {
+    padding-right: 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+.subject > div {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+/* ----------------------------- */
+.box-login {
+    padding: 160px 165px 0px 165px;
+}
+
+.head-login button {
+    float: right;
+    padding: 14px 12px;
+    background: white;
+    color: #52a2f2;
+    border: 1px solid #52a2f2;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.head-login button:hover {
+    background: #eaf5fd;
+}
+.head-login button:active {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+.head-login button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+}
+
+p {
+    font-size: 27px;
+    line-height: 32px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.sign-up {
+    width: 100%;
+    padding: 10px 0px;
+    background: #52a2f2;
+    color: white;
+    border: 1px solid #52a2f2;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up:hover {
+    background-color: #006dbf;
+    border-color: #006dbf;
+}
+.sign-up:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+}
+.log-in {
+    width: 100%;
+    padding: 10px 0px;
+    background: white;
+    color: #52a2f2;
+    border: 1px solid #52a2f2;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.log-in:hover {
+    background: #eaf5fd;
+}
+.log-in:active {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+.log-in:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+}
+
+.footer {
+    position: fixed;
+    padding: 3px 0px;
+    width: 100%;
+    bottom: 0;
+    background: #fff;
+    color: #aab8c2;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+}
+li a {
+    color: #aab8c2;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
