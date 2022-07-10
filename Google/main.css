@@ -70,7 +70,7 @@ a:hover {
     border: 1px solid #dfdfdf;
     border-bottom: 1px solid #c2c2c2;
     font-size: 18px;
-    border-radius: 3px;
+    border-radius: 30px;
     box-shadow: 0px 1px 2px #bbbbbb;
 }
 .search input:hover{
